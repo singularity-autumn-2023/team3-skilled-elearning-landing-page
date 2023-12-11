@@ -2,7 +2,7 @@
 
 
   /* ##Device = Desktops */
-  @media (min-width: 90rem) {
+  @media (min-width: 48rem) {
     section {
         border: #f0dc2a 2px solid;
         border-radius: 0.625rem;
