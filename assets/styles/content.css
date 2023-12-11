@@ -1,1 +1,34 @@
 /* Import content */
+
+
+  /* ##Device = Desktops */
+  @media (min-width: 90rem) {
+    section {
+        border: #f0dc2a 2px solid;
+        border-radius: 0.625rem;
+        background: var(--Gradient-1, linear-gradient(180deg, #f0dc2a 0%, #f0dc2a 100%));
+    }
+    
+  }
+
+
+  /* ##Device = Tablets, Ipads (portrait) */
+  @media (max-width: 48rem) {
+    section {
+        border: #58f02a 2px solid;
+        border-radius: 0.625rem;
+        background: var(--Gradient-1, linear-gradient(180deg, #58f02a 0%, #58f02a 100%));
+    }
+  }
+
+
+
+  /* ##Device = Most of the Smartphones Mobiles */
+  @media   (max-width: 21.4375rem) { 
+    section {
+        border: #F02AA6 2px solid;
+        border-radius: 0.625rem;
+        background: var(--Gradient-1, linear-gradient(180deg, #F02AA6 0%, #F02AA6 100%));
+    }
+ }
+
