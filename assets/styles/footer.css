@@ -1,0 +1,52 @@
+/* Import footer */
+.footer {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    margin-top: 5.25rem;
+    background: hsla(234, 53%, 16%, 1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.25rem 1rem;
+}
+.logo {
+    width: 5.5625rem;
+    vertical-align: center;
+}
+.footer__getting-started {
+    background:  linear-gradient(180deg, #4851ff 0%, #f02aa6 99.92%);
+    color: hsla(0, 0%, 100%, 1);
+}
+.footer__getting-started :hover{
+    
+background: linear-gradient(0deg, rgba(255, 255, 255, 0.50) 0%, rgba(255, 255, 255, 0.50) 100%), linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);;
+}
+
+.btn {
+    font-size: 1.125rem;;
+    line-height: 1.75rem;;
+    font-weight: 700;
+    padding: 0.625rem 1.5rem;
+    border-radius: 1.75rem;
+    text-decoration: none;
+}
+@media screen and (min-width: 48rem){
+.footer {
+    margin-top: 5.5rem;
+    padding: 2.25rem 2.4688rem;
+}
+}
+
+@media screen and (min-width: 90rem){
+.footer {
+    margin-top: 8.75rem;
+    padding: 2rem 10.3125rem;
+}
+.logo {
+    width: 7.125rem;
+}
+.btn {
+    font-size: 1.125rem;
+    line-height: 1.625rem;
+    padding: 0.875rem 1.9688rem;
+}
+}
