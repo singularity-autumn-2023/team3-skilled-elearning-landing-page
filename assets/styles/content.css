@@ -214,7 +214,7 @@
   @media   (max-width: 460px) { 
 
     main {
-      background: linear-gradient(180deg, #b61515 0%, #F0F1FF 100%);
+      background: linear-gradient(180deg, #fff 0%, #F0F1FF 100%);
       padding-bottom: 2.38rem;
     }
     main > section {
