@@ -2,12 +2,46 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="stylesheet" href="src/style.css">
+    <style>
+      @import url("/assets/styles/default.css");
+      @import url('/assets/styles/header.css');
+      @import url('/assets/styles/content.css');
+      @import url('/assets/styles/footer.css');
+   </style>
+    <link rel="icon" type="image/svg+xml" href="public/skilled.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + TS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Plus+Jakarta+Sans:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <title>skilled</title>
   </head>
   <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.ts"></script>
+    <header class="header">
+      <div class="header_container">      
+        <a href="#" class="logo_skilled">skilled</a>
+      <button class="button-get-Started" id="myButtonGetStarted"><span>Get Started</span></button>
+      </div>
+    </header>
+  <section class="header_section">
+    <div>
+    <h1 class="header_section_text1">
+      Maximize skill,<br>minimize budget
+    </h1>
+    <p class="header_section_text2">
+      Our modern courses across a range of in-demand<br> skills will give you the knowledge you need to live<br> the life you want.
+    </p>
+    <button class="section_button-get-Started" id="myButtonSectionGetStarted"><span>Get Started</span></button>
+  </div>
+    <img src="public/mobile-image.svg" class="mobile-image" alt="image">
+  </section>
+  <main class="content">
+    <!-- HTML5 content   -->  
+ </main>
+
+ <footer>
+   <!-- Footer  -->  
+ </footer>
+  <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
