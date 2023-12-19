@@ -1,12 +1,11 @@
 /* Import footer */
 .footer {
     font-family: "Plus Jakarta Sans", sans-serif;
-    margin-top: 5.25rem;
     background: hsla(234, 53%, 16%, 1);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2.25rem 1rem;
+    padding: 2.25rem 2rem 2.25rem 2.25rem;
 }
 .logo {
     width: 5.5625rem;
