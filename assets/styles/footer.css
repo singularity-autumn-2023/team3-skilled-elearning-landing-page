@@ -1,12 +1,11 @@
 /* Import footer */
 .footer {
     font-family: "Plus Jakarta Sans", sans-serif;
-    margin-top: 5.25rem;
     background: hsla(234, 53%, 16%, 1);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2.25rem 1rem;
+    padding: 2.25rem 2rem 2.25rem 2.25rem;
 }
 .logo {
     width: 5.5625rem;
@@ -31,14 +30,12 @@ background: linear-gradient(0deg, rgba(255, 255, 255, 0.50) 0%, rgba(255, 255, 2
 }
 @media screen and (min-width: 48rem){
 .footer {
-    margin-top: 5.5rem;
-    padding: 2.25rem 2.4688rem;
+    padding: 2.25rem 10.3125rem;
 }
 }
 
 @media screen and (min-width: 90rem){
 .footer {
-    margin-top: 8.75rem;
     padding: 2rem 10.3125rem;
 }
 .logo {
