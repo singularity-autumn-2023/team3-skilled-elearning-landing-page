@@ -1,3 +1,305 @@
+
+ /* ##Device = Desktops */
+ @media (min-width: 768px) {
+    main {
+      background: linear-gradient(180deg, #fff 0%, #F0F1FF 100%);
+      padding-bottom: 5.75rem;
+    }
+    main > section {
+      display: flex;
+      flex-wrap: wrap;
+      padding-top: 3rem;    
+    }
+
+    main section section {
+      border-radius: 0.625rem;
+      background: var(--Gradient-1, linear-gradient(180deg, #FFF 0%, #FFF 100%));
+      padding-left: 1.75rem;
+      flex-basis: 26.6%;
+      box-sizing: border-box;      
+      margin-bottom :3rem;
+      margin-left: 2rem;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+  }
+
+  main section section:nth-child(4)  {
+    margin-left: 2.44rem; 
+  }
+
+
+  main aside {
+    border-radius: 0.625rem;
+    background: var(--Gradient-1, linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%));
+    color: var(--FFFFFF, #FFF);
+    font-feature-settings: 'clig' off, 'liga' off; 
+    font-family: Plus Jakarta Sans;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 2.5rem;  
+    padding: 3.5rem 3.8rem 8.8rem 1.75rem;
+    flex-basis: 26.6%;
+    box-sizing: border-box;
+    margin-top: 0rem;
+    margin-left: 2.44rem;
+    margin-bottom :3rem;
+
+  }
+
+
+  main section h2 {
+    color: var(--13183F, #13183F);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Plus Jakarta Sans;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+
+  }
+
+
+  main section article {
+    color: var(--83869A, #83869A);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Plus Jakarta Sans;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.75rem; 
+    padding-bottom: 1.2rem;
+    padding-right: 5rem;
+    flex: 1;
+
+  }
+  main section figure {
+    padding: 0;
+    margin: -1.3rem 0 1.5rem; 
+
+  }
+
+
+  main section .more {
+    padding-bottom: 2rem;
+    align-self: flex-start;
+
+  }
+
+  main section .more a {
+    color: var(--F74780, #F74780);
+    font-family: Plus Jakarta Sans;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.75rem; 
+    text-decoration: none;
+  }
+
+  main section .more a:hover {
+  color: var(--FFA7C3, #FFA7C3);
+ }
+
+  }
+
+
+  /* ##Device = Tablets, Ipads (portrait) */
+  @media only screen and  (min-width: 460px)  and (max-width: 767px) {
+    main {
+      background: linear-gradient(180deg, #FFF 0%, #F0F1FF 100%);
+      padding-bottom: 2.38rem;
+    }
+    main > section {
+      display: flex;
+      flex-wrap: wrap;
+      padding-top: 3rem;    
+    }
+
+    main section section {
+      border-radius: 0.625rem;
+      background: var(--Gradient-1, linear-gradient(180deg, #FFF 0%, #FFF 100%));
+      padding-left: 1.75rem;
+      flex-basis: 44.5%;
+      box-sizing: border-box;      
+      margin-bottom :3rem;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+  }
+  main section section:nth-child(odd)  {
+    margin-left: 2.44rem; 
+    margin-right: 0.69rem;
+  }
+
+
+  main aside {
+    border-radius: 0.625rem;
+    background: var(--Gradient-1, linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%));
+    color: var(--FFFFFF, #FFF);
+    font-family: Plus Jakarta Sans;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 2rem;
+    padding: 3.5rem 2.8rem 8.8rem 1.75rem;
+    flex-basis: 44.5%;
+    box-sizing: border-box;
+    margin-top: 0rem;
+    margin-left: 2.44rem;
+    margin-right: 0.69rem;
+    margin-bottom :3rem;
+
+  }
+
+
+  main section h2 {
+    color: var(--13183F, #13183F);
+    font-family: Plus Jakarta Sans;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+
+  }
+
+
+  main section article {
+    color: var(--83869A, #83869A);
+    font-family: Plus Jakarta Sans;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.625rem; 
+    padding-bottom: 1.2rem;
+    flex: 1;
+
+
+  }
+  main section figure {
+    padding: 0;
+    margin: -1.3rem 0 1.5rem; 
+
+  }
+
+
+  main section .more {
+    padding-bottom: 2rem;
+    align-self: flex-start;
+  }
+
+  main section .more a {
+    text-decoration: none;
+    color: var(--F74780, #F74780);
+    font-family: Plus Jakarta Sans;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.75rem; 
+    text-decoration: none;
+
+  }
+
+  main section .more a:hover {
+  color: var(--FFA7C3, #FFA7C3);
+ }
+
+  }
+
+
+
+  /* ##Device = Most of the Smartphones Mobiles */
+  @media   (max-width: 460px) { 
+
+    main {
+      background: linear-gradient(180deg, #fff 0%, #F0F1FF 100%);
+      padding-bottom: 2.38rem;
+    }
+    main > section {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      padding-top: 0rem;    
+
+    }
+
+    main section section {
+      border-radius: 0.625rem;
+      background: var(--Gradient-1, linear-gradient(180deg, #FFF 0%, #FFF 100%));
+        padding-left: 1.75rem;
+        padding-top: 1rem;
+        padding-right: 2.81rem;
+        margin-bottom :3rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    main aside {
+      border-radius: 0.625rem;
+      background: var(--Gradient-1, linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%)); 
+      color: var(--FFFFFF, #FFF);
+      font-family: Plus Jakarta Sans;
+      font-size: 1.5rem;
+      font-style: normal;
+      font-weight: 800;
+      line-height: 2rem;
+      padding: 1.5rem 1.8rem 2rem 1.75rem;
+      margin: 0 1rem 2.5rem 1rem;
+    }
+
+
+    main section h2 {
+      color: var(--13183F, #13183F);
+      font-family: Plus Jakarta Sans;
+      font-size: 1.25rem;
+      font-style: normal;
+      font-weight: 800;
+      line-height: normal;
+    }
+
+
+    main section article {
+      color: var(--83869A, #83869A);
+      font-family: Plus Jakarta Sans;
+      font-size: 1rem;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 1.625rem; 
+      padding-bottom: 1.2rem;
+      flex: 1;
+
+    }
+    main section figure {
+      padding: 0;
+      margin: -2.5rem 0 1.5rem; 
+    }
+
+
+    main section .more {
+      padding-bottom: 2rem;
+      align-self: flex-start;
+
+    }
+
+    main section .more a {
+      text-decoration: none;
+      color: var(--F74780, #F74780);
+      font-family: Plus Jakarta Sans;
+      font-size: 1.125rem;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 1.75rem;  
+    }
+
+    main section .more a:hover {
+      color: var(--FFA7C3, #FFA7C3);
+     }
+
+ }
+=======
 /* Import content */
 
 
@@ -301,4 +603,3 @@
      }
 
  }
-

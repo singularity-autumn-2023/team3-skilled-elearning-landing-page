@@ -19,6 +19,29 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
       Click on the Vite and TypeScript logos to learn more
     </p>
   </div>
-`
+  `
+
+  const myButtonGetStarted = document.getElementById('myButtonGetStarted');
+
+  if (myButtonGetStarted) {
+    myButtonGetStarted.addEventListener('click', handleClick);
+  }
+  
+  function handleClick() {
+    myButtonGetStarted?.classList.add('active');
+  }
+
+  const myButtonSectionGetStarted = document.getElementById('myButtonSectionGetStarted');
+
+  if (myButtonSectionGetStarted) {
+    myButtonSectionGetStarted.addEventListener('click', handlesectionClick);
+  }
+  
+  function handlesectionClick() {
+    myButtonSectionGetStarted?.classList.add('active');
+  }
 
 setupCounter(document.querySelector<HTMLButtonElement>('#counter')!)
+
+
+
